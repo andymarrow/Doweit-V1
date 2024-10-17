@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function Hero() {
@@ -17,12 +18,12 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a
+            <Link
               className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-              href="#"
+              href={'/dashboard'}
             >
               Get Started
-            </a>
+            </Link>
           </div>
         </div>
       </div>
