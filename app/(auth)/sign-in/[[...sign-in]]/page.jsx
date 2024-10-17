@@ -32,8 +32,8 @@ export default function Page() {
             </h2>
 
             <p className="mt-4 leading-relaxed text-white/90">
-            Turn a simple prompt into a detailed autobiography of your role models 📝. 
-            Unleash their inspiring stories and share your heroes with the world 🌟.
+            Doweit is an AI-powered web application designed to streamline course creation. It enables users to generate complete courses, including optional YouTube video integrations for each chapter, making it easy to create engaging learning experiences. For coding-related courses, Doweit can also provide sample code snippets to enhance learning. The platform features a Public Library, allowing users to explore and draw inspiration from courses created by others, as well as a Customize Yours section, where users can manage and refine their own course content.
+         
             </p>
           </div>
         </section>
@@ -66,8 +66,8 @@ export default function Page() {
               </h1>
 
               <p className="mt-4 leading-relaxed text-gray-500">
-              Turn a simple prompt into a detailed autobiography of your role models 📝. 
-              Unleash their inspiring stories and share your heroes with the world 🌟.
+              Doweit is an AI-powered web application designed to streamline course creation. It enables users to generate complete courses, including optional YouTube video integrations for each chapter, making it easy to create engaging learning experiences. For coding-related courses, Doweit can also provide sample code snippets to enhance learning. The platform features a Public Library, allowing users to explore and draw inspiration from courses created by others, as well as a Customize Yours section, where users can manage and refine their own course content.
+         
               </p>
             </div>
             <div className='sm:flex sm:justify-center'>
