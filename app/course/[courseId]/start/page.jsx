@@ -33,8 +33,12 @@ function CourseStart({ params }) {
     }
 
     return (
-        <div className="flex">
+        <div>
+           
             <Header/>
+            
+           
+            <div className="flex">
             {/* Chapter List Sidebar */}
             <div className='hidden md:block md:w-64 h-screen border-r shadow-md bg-white'>
                 <h2 className="font-medium text-center text-lg bg-primary p-3 text-white">
@@ -63,6 +67,8 @@ function CourseStart({ params }) {
                     <ChapterContent chapter={selectedChapter} content={ChapterContents}/>
             </div>
         </div>
+         </div>
+     
     );
 }
 
