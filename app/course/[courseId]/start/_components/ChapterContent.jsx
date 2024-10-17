@@ -1,7 +1,7 @@
 import React from 'react';
 import YouTube from 'react-youtube';
 import ReactMarkdown from 'react-markdown';
-
+import Header from '@/app/_components/Header'
 const opts = {
   height: '390',
   width: '640',
@@ -25,6 +25,9 @@ function ChapterContent({ chapter, content }) {
   }
 
   return (
+    <>
+      <Header />
+    
     <div className='p-10'>
       <h2 className='font-medium text-2xl'>{chapter?.name}</h2>
       <p className='text-gray-500'>{chapter?.about}</p>
@@ -53,6 +56,7 @@ function ChapterContent({ chapter, content }) {
         ))}
       </div>
     </div>
+    </>
   );
 }
 
