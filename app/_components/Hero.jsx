@@ -12,9 +12,7 @@ export default function Hero() {
           </h1>
 
           <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-            Craft detailed autobiographies of your role models effortlessly. 
-            With just a few prompts, you can share the remarkable journeys of 
-            your heroes with the world.
+          Doweit is an AI-powered web application designed to streamline course creation. It enables users to generate complete courses, including optional YouTube video integrations for each chapter, making it easy to create engaging learning experiences. For coding-related courses, Doweit can also provide sample code snippets to enhance learning. The platform features a Public Library, allowing users to explore and draw inspiration from courses created by others, as well as a Customize Yours section, where users can manage and refine their own course content.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
