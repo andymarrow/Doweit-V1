@@ -10,6 +10,7 @@ export default function Home() {
     <Header />
      {/* Hero Section */}
      <Hero />
+     {/* this is the main page */}
    </div>
   );
 }
